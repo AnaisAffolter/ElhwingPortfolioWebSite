@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'FreestyleScript';
+    src: url('../police/FREESCPT.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fontTitle {
+    font-family: 'FreestyleScript';
+    font-size: 500%;
+    ;
+}
+
+* {
+    margin: 0;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    min-height: 7vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around
+}
+
+.aHeader {
+    width: 33%;
+}
+
+.aHeader:hover {
+    font-weight: bold;
+}
+
+#imageLogoCompany {
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+}
+
+main {
+    width: 100vw;
+    min-height: 65vh;
+    background-color: rgb(254, 235, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactBox {
+    width: 50%;
+}
+
+#contactDescriptionTitle {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 150%;
+}
+
+.contactBoxLeft {
+    text-align: center;
+}
+
+.contactBoxRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#formulaireContact {
+    width: 100%;
+}
+
+.formElement {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.formLabel {
+    width: 45%;
+    text-align: right;
+    margin-right: 10%;
+    font-size: 150%;
+}
+
+.buttonBox {
+    margin-top: 10%;
+    text-align: center;
+}
+
+#button {
+    border: 15px solid #d1435e;
+    border-radius: 30px;
+    background-color: #d1435e;
+    width: 25%;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-top: 2%;
+}
+
+#footerMark {
+    width: 100%;
+    text-align: center;
+}
+
+.footerText {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    text-align: center;
+}
+
+.footerTitle {
+    margin-bottom: 2%;
+}
+
+.imageLogoSocialMedia {
+    width: 1.5%;
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* Nouvelles règles si la fenêtre fait  1024px de large ou moins */
+    .fontTitle {
+        font-size: 650%;
+        ;
+    }
+
+    #imageLogoCompany {
+        width: 70%;
+    }
+
+    main {
+        min-height: 75vh;
+    }
+
+    #contactDescriptionTitle {
+        margin-top: 8%;
+        margin-bottom: 8%;
+        font-size: 200%;
+    }
+
+}

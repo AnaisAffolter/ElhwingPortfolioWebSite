@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'FreestyleScript';
+    src: url('../police/FREESCPT.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fontTitle {
+    font-family: 'FreestyleScript';
+    font-size: 300%;
+    margin-top: 10%
+}
+
+* {
+    margin: 0;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    min-height: 7vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around
+}
+
+.aHeader {
+    width: 33%;
+}
+
+.aHeader:hover {
+    font-weight: bold;
+}
+
+#imageLogoCompany {
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+}
+
+#columnProject {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectDescription {
+    width: 60%;
+    margin-bottom: 10%;
+}
+
+.projectImage {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#columnIllustration {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.illustrationImage {
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-top: 2%;
+}
+
+#footerMark {
+    width: 100%;
+    text-align: center;
+}
+
+.footerText {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    text-align: center;
+}
+
+.footerTitle {
+    margin-bottom: 2%;
+}
+
+.imageLogoSocialMedia {
+    width: 1.5%;
+}
+
+@media screen and (max-width: 1024px) {
+    /* Nouvelles règles si la fenêtre fait  1024px de large ou moins */
+
+    #imageLogoCompany {
+        width: 70%;
+    }
+}
